@@ -1,4 +1,6 @@
-# Frontispiece
+![OWASP LOGO](images/OWASP_logo.png)
+
+# Mobile Application Security Verification Standard
 
 ## Über den Standard
 
@@ -13,11 +15,25 @@ Nutzerkonten können unter folgender URL angelegt werden:
 ## Copyright and License
 
 ![license](images/license.png)
+
 Copyright © 2018 The OWASP Foundation. Dieses Dokument ist veröffentlicht unter der Creative Commons Attribution ShareAlike 3.0 Lizenz. Für jedwede Wiederverwendung oder Vertrieb müssen diese Lizenzbestimmungen klar kommuniziert werden.
 
-| Project Lead | Lead Author | Mitwirkende and Reviewer | Übersetzung ins deutsche
-| --- | --- | --- | --- |
-| Sven Schleier & Jeroen Willemsen| Bernhard Mueller | Alexander Antukh, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Stephen Corbiaux, Manuel Delgado, Ryan Dewhurst, Tereshin Dmitry, Ben Gardiner, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Sven Schleier, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Abdessamad Temmar, Jeroen Willemsen | Rocco Gränitz, Sven Schleier (Review) |
+<div style="page-break-after: always;"></div>
+
+## Danksagungen
+
+| Project Lead | Lead Author | Mitwirkende and Reviewer |
+| --- | --- | --- |
+| Sven Schleier & Jeroen Willemsen| Bernhard Mueller | Alexander Antukh, Mesheryakov Aleksey, Bachevsky Artem, Jeroen Beckers, Vladislav Chelnokov, Ben Cheney, Peter Chi, Lex Chien, Stephen Corbiaux, Manuel Delgado, Ratchenko Denis, Ryan Dewhurst, Tereshin Dmitry, Christian Dong, Oprya Egor, Ben Gardiner, Rocco Gränitz, Henry Hu, Sjoerd Langkemper, Vinícius Henrique Marangoni, Martin Marsicano, Roberto Martelloni, Gall Maxim, Riotaro Okada, Abhinav Sejpal, Stefaan Seys, Yogesh Shamrma, Prabhant Singh, Sven Schleier, Nikhil Soni, Anant Shrivastava, Francesco Stillavato, Romuald SZKUDLAREK, Abdessamad Temmar, Koki Takeyama, Chelnokov Vladislav, Leo Wang, Jeroen Willemsen |
+
+| Sprache | Übersetzer und Gutachter |
+| --- | --- |
+| Chinesisch | Peter Chi, and Lex Chien, Henry Hu, Leo Wang |
+| Französisch | Romuald SZKUDLAREK, Christian Dong (Review) |
+| Deutsche | Rocco Gränitz, Sven Schleier (Review) |
+| Spanisch | Martin Marsicano |
+| Japanisch | Koki Takeyama, Riotaro Okada (Review) |
+| Russisch | Gall Maxim, Chelnokov Vladislav (Review), Oprya Egor (Review), Tereshin Dmitry (Review) |
 
 Dieses Dokument basiert auf einem Fork des OWASP Application Security Verification Standard verfasst von Jim Manico.
 
@@ -28,3 +44,5 @@ Obwohl beide Projekte, der MASVS und der MSTG, auf freiwilliger Basis im Rahmen 
 ### Besonderer Sponsor
 
 [![NowSecure](images/NowSecure_logo.png)](https://www.nowsecure.com/ "NowSecure")
+
+Als nächstes möchten wir uns beim OWASP Bay Area Chapter für das Sponsoring bedanken. Zum Schluss möchten wir uns bei allen bedanken, die das Buch von Leanpub gekauft und uns auf diese Weise gesponsert haben.

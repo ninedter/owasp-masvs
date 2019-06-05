@@ -2,19 +2,26 @@
 
 Der MASVS kann genutzt werden um das Sicherheitsniveau von mobilen Apps nachweisen zu können. Die Anforderungen wurden auf Basis folgender Ziele entwickelt:
 
-* Nutzung als Metrik - Um Entwicklern und Applikations-Verantwortlichen einen Security Standard anzubieten gegen den existierende mobile Apps verglichen werden können;
-* Nutzung als Hilfestellung - Um Hilfe zu bieten in allen Phasen mobiler App-Entwicklung und Tests.
-* Nutzung bei Beschaffung/Kauf von mobilen Apps - Um als Baseline zur Prüfung der Security von mobilen Apps zu dienen.
+- Nutzung als Metrik - Um Entwicklern und Applikations-Verantwortlichen einen Security Standard anzubieten gegen den existierende mobile Apps verglichen werden können;
+- Nutzung als Hilfestellung - Um Hilfe zu bieten in allen Phasen mobiler App-Entwicklung und Tests.
+- Nutzung bei Beschaffung/Kauf von mobilen Apps - Um als Baseline zur Prüfung der Security von mobilen Apps zu dienen.
 
 ## Das Mobile AppSec Model
 
 Der MASVS definiert zwei strikte Prüf-Level (L1 and L2), sowie eine Reihe von Sicherheitsmaßnahmen zur Robustheit gegen Reverse Engineering (MASVS-R). Diese sind flexibel, d.h. adaptierbar an ein App-spezifisches Threat Model. MASVS-L1 and MASVS-L2 enthalten generische Sicherheitsanforderungen und werden für alle mobilen Apps (L1) und Apps die hochsensible Daten verarbeiten (L2) empfohlen. MASVS-R deckt zusätzliche Schutzmaßnahmen ab die anzuwenden sind um Client-seitigen Threats vorzubeugen.
 
-Eine App die alle Anforderungen aus MASVS-L1 erfüllt, folgt Security Best Practices und vermeidet damit typische Schwachstellen. MASVS-L2 fügt weitere Defense-In-Depth Maßnahmen wie SSL-Pinning hinzu um ein erhöhtes Schutzniveau gegen komplexere Angriffe zu bieten. Dabei gilt die Annahme, dass das mobile Betriebssystem intakt und der Endnutzer nicht als potentieller Angreifer betrachtet wird. Die Anforderungen aus dem MASVS-R ganz oder teilweise zu erfüllen, hilft dabei spezifische client-seitige Threats (böswilliger Nutzer o. kompromittiertes Betriebssystem) zu verhindern bzw. zu erschweren. 
+Eine App die alle Anforderungen aus MASVS-L1 erfüllt, folgt Security Best Practices und vermeidet damit typische Schwachstellen. MASVS-L2 fügt weitere Defense-In-Depth Maßnahmen wie SSL-Pinning hinzu um ein erhöhtes Schutzniveau gegen komplexere Angriffe zu bieten. Dabei gilt die Annahme, dass das mobile Betriebssystem intakt und der Endnutzer nicht als potentieller Angreifer betrachtet wird. Die Anforderungen aus dem MASVS-R ganz oder teilweise zu erfüllen, hilft dabei spezifische client-seitige Threats (böswilliger Nutzer o. kompromittiertes Betriebssystem) zu verhindern bzw. zu erschweren.
 
 **Achtung - Die Schutzmaßnahmen enthalten in MASVS-R und beschrieben im OWASP Mobile Testing Guide können letztlich alle umgangen werden und dürfen nicht als Ersatz für Sicherheitsmaßnahmen (L1/L2) genutzt werden. Stattdessen sind sie dazu gedacht, um zusätzliche Threat-spezifische Schutzmaßnahmen zu Apps hinzuzufügen, die bereits die MASVS Anforderungen L1 oder L2 erfüllen.**
 
 ![Prüf-Level](images/masvs-levels-new.jpg)
+
+&nbsp;  
+&nbsp;
+&nbsp;  
+&nbsp;
+&nbsp;  
+&nbsp;
 
 ### Dokumentstruktur
 
@@ -50,9 +57,9 @@ Insgesamt gibt es folgende Prüfkombinationen:
 
 Die Kombinationen stellen verschiedene Graduierungen der Security und Resilienz dar. Das Ziel ist Flexibilität: Eine Gaming-App z.B. wird aus Usability-Gesichtspunkten darauf verzichten, MASVS-L2 Maßnahmen wie 2-Faktor Authentifizierung zu nutzen hat jedoch aus Business-Sicht hohen Schutzbedarf gegen Code-Manipulation (Tampering).
 
-#### Welche Prüfvariante wählen?
+#### Prüfvariante wählen
 
-Die Anforderungen aus MASVS L2 zu implementieren erhöht die Sicherheit - dies kann sich jedoch negativ auf die Endnutzerakzeptanz auswirken (klassischer Kompromiss). Zeitgleich steigen die Entwicklungskosten. 
+Die Anforderungen aus MASVS L2 zu implementieren erhöht die Sicherheit - dies kann sich jedoch negativ auf die Endnutzerakzeptanz auswirken (klassischer Kompromiss). Zeitgleich steigen die Entwicklungskosten.
 
 ##### Beispiele
 
